@@ -1,4 +1,4 @@
-﻿namespace TicTacToe
+namespace TicTacToe
 {
     partial class TicTacToe_MainForm
     {
@@ -37,7 +37,6 @@
             this.R3C1 = new System.Windows.Forms.Button();
             this.R3C2 = new System.Windows.Forms.Button();
             this.R3C3 = new System.Windows.Forms.Button();
-            this.Exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // R1C1
@@ -121,22 +120,11 @@
             this.R3C3.UseVisualStyleBackColor = true;
             this.R3C3.Click += new System.EventHandler(this.toggle_pos);
             // 
-            // Exit
-            // 
-            this.Exit.Location = new System.Drawing.Point(122, 232);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(99, 23);
-            this.Exit.TabIndex = 9;
-            this.Exit.Text = "Exit";
-            this.Exit.UseVisualStyleBackColor = true;
-            this.Exit.Click += new System.EventHandler(this.quit_app);
-            // 
-            // Form1
+            // TicTacToe_MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(237, 267);
-            this.Controls.Add(this.Exit);
+            this.ClientSize = new System.Drawing.Size(234, 233);
             this.Controls.Add(this.R3C3);
             this.Controls.Add(this.R3C2);
             this.Controls.Add(this.R3C1);
@@ -147,7 +135,7 @@
             this.Controls.Add(this.R1C2);
             this.Controls.Add(this.R1C1);
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "TicTacToe_MainForm";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tic Tac Toe";
@@ -167,7 +155,6 @@
         private System.Windows.Forms.Button R3C1;
         private System.Windows.Forms.Button R3C2;
         private System.Windows.Forms.Button R3C3;
-        private System.Windows.Forms.Button Exit;
     }
 }
 
