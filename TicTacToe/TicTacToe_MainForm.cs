@@ -71,9 +71,5 @@ namespace TicTacToe {
                     MessageBox.Show("1st Player won!!");
             }
         }
-
-        private void quit_app(object sender, EventArgs e) {
-            Application.Exit();
-        }
     }
 }
