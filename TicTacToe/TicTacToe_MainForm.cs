@@ -65,6 +65,11 @@ namespace TicTacToe {
 
             if(winner)
             {
+                //Disable buttons to prevent any more choices
+                foreach(Control c in Controls) {
+                    Button a = (Button)c;
+                    c.Enabled = false;
+                }
                 if (check_turn)
                     MessageBox.Show("2nd Player won!!");
                 else
